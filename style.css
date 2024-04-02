@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.5); /* Fondo semitransparente para resaltar el contenido */
+    color: #fff;
+    overflow: hidden; /* Para que el contenedor se expanda automáticamente */
+    background-image: url('imagenes/Header-Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    float: left; /* Alinea la imagen a la izquierda */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 20px; /* Agrega un margen a la derecha para separar la imagen del texto */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra alrededor de las secciones */
+}
+
+section h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.alienar{
+    display: flex;
+}
